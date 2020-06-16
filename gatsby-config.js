@@ -1,10 +1,10 @@
 module.exports = {
-  pathPrefix: "/portfolio",
   siteMetadata: {
     title: `Joseph Choi`,
     description: `Front End Developer`,
     author: `Joseph Choi`,
   },
+  pathPrefix: "/portfolio",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
