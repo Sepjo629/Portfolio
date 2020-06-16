@@ -1,6 +1,6 @@
 import React from "react"
 import { Flex, Box, Image } from "rebass"
-import Icon from "../images/icon.svg"
+import Icon from "../images/Icon.svg"
 import {
   LinkedinFilled,
   InstagramOutlined,
