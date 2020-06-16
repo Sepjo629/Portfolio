@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Joseph Choi",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Joseph's portfolio website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Joseph Choi <sepjo629@gmail.com>",
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@emotion/core": "^10.0.28",
@@ -45,7 +45,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "heroku-postbuild": "gatsby build"
   },
   "repository": {
     "type": "git",
