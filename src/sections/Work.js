@@ -8,8 +8,6 @@ import PlanetBreaker from "../images/PlanetBreaker.png"
 import Boomerang from "../images/Boomerang.png"
 import Seasaw from "../images/Seasaw.png"
 
-const { Meta } = Card
-
 const Work = () => {
   return (
     <Flex
