@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{w2l6:function(n,o,w){"use strict";w.r(o);w("q1tI");o.default=PageNotFou<h1>nd}}]);
+//# sourceMappingURL=component---src-pages-404-js-bec3de0c69e0de1ea6b6.js.map
