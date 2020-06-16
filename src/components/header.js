@@ -1,42 +1,49 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import { Flex, Link, Box, Image } from "rebass"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+import Icon from "../images/Icon.svg"
+
+const Header = () => {
+  return (
+    <>
+      <Flex
+        sx={{
+          position: "fixed",
+          width: "100%",
+          padding: 50,
+          transition: "top 0.3s",
+          zIndex: "100",
+        }}
+        alignItems="center"
+      >
+        <Link href="#home">
+          <Image src={Icon} width={42} />
         </Link>
-      </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+        <Box mx="auto" />
+        <Link
+          sx={{ textDecoration: "none", color: "black" }}
+          href="#about"
+          px={10}
+        >
+          About
+        </Link>
+        <Link
+          sx={{ textDecoration: "none", color: "black" }}
+          href="#work"
+          px={10}
+        >
+          Work
+        </Link>
+        <Link
+          sx={{ textDecoration: "none", color: "black" }}
+          href="#contact"
+          pl={10}
+        >
+          Contact
+        </Link>
+      </Flex>
+    </>
+  )
 }
 
 export default Header
